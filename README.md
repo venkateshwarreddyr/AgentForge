@@ -2,8 +2,6 @@
 
 Production-grade LangGraph.js code generation pipeline on AWS with NestJS — supervisor routing, retry/fallback, cost tracking, and OpenTelemetry observability.
 
-> **Interview signal:** Staff-level architecture ownership — async patterns, distributed tracing, cost tracking, IaC, CI/CD with OIDC.
-
 ---
 
 ## What It Does
