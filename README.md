@@ -22,6 +22,22 @@ The supervisor routes Coder → Reviewer → Coder in a revision loop until `qua
 
 ---
 
+## Screenshots
+
+### Dashboard — Submit a New Run
+![Submit Form](docs/screenshots/dashboard.png)
+
+### Runs List
+![Runs List](docs/screenshots/runs-list.png)
+
+### Health Check Endpoint (`GET /health`)
+![Health Endpoint](docs/screenshots/health-endpoint.png)
+
+### Metrics Endpoint (`GET /metrics`)
+![Metrics Endpoint](docs/screenshots/metrics-endpoint.png)
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |

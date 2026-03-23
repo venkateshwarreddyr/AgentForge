@@ -2,10 +2,10 @@ import * as Joi from 'joi';
 
 export const configValidationSchema = Joi.object({
   // LLM
-  LLM_API_KEY: Joi.string().optional(),
-  XAI_API_KEY: Joi.string().optional(),
-  OPENAI_API_KEY: Joi.string().optional(),
-  LLM_BASE_URL: Joi.string().optional(),
+  LLM_API_KEY: Joi.string().allow('').optional(),
+  XAI_API_KEY: Joi.string().allow('').optional(),
+  OPENAI_API_KEY: Joi.string().allow('').optional(),
+  LLM_BASE_URL: Joi.string().allow('').optional(),
   PRIMARY_MODEL: Joi.string().default('gpt-4o'),
   FALLBACK_MODEL: Joi.string().default('gpt-4o-mini'),
 

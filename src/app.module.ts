@@ -19,7 +19,7 @@ import { WorkerModule } from './worker/worker.module';
     WorkerModule,
     ApiModule,
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '..', 'public'),
+      rootPath: join(__dirname, 'public'),
       exclude: ['/run(.*)', '/health', '/metrics'],
     }),
   ],
